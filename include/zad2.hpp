@@ -13,8 +13,7 @@ class PopGwiazda : public Artysta
 public:
     PopGwiazda(const string& name, unsigned liczba) : Artysta(name, liczba) {}
 
-    void graj(ostream& stream) const override 
-    { stream << "PopGwiazda: " << getPseudonim(); }
+    void graj(ostream& stream) const override { stream << "PopGwiazda: " << getPseudonim(); }
 private:
 
 };
@@ -25,8 +24,7 @@ public:
 
     RapGwiazda(const string& name, unsigned liczba) : Artysta(name, liczba) {}
 
-    void graj(ostream& stream) const override 
-    { stream << "RapGwiazda: " << getPseudonim(); }
+    void graj(ostream& stream) const override  { stream << "RapGwiazda: " << getPseudonim(); }
 private:
 }; 
 
