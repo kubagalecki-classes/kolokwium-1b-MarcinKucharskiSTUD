@@ -1,2 +1,2 @@
 language = "cpp"
-run = ""
+run = "chmod +x build-and-run.sh; ./build-and-run.sh"
